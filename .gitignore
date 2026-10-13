@@ -1,0 +1,18 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+next-env.d.ts
+
+# raw image sources (originals kept out of the repo; processed files live in public/images)
+.image-src/
+
+# misc
+.DS_Store
+*.log
+.env
+.env*.local
+coverage/
+*.tsbuildinfo
