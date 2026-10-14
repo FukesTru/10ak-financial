@@ -104,15 +104,19 @@ async function processClientPhotos(): Promise<Record<string, ClientPhotoEntry>> 
   return out;
 }
 
-async function main() {
+/** Processes everything in .image-src and public/client-photos; returns the IDs still missing. */
+export async function processImages(): Promise<ImageId[]> {
   fs.mkdirSync(OUT, { recursive: true });
   const manifest = { images: await processGenerated(), clientPhotos: await processClientPhotos() };
   fs.writeFileSync(path.join(ROOT, "lib/image-manifest.json"), `${JSON.stringify(manifest, null, 2)}\n`);
   const missing = (Object.keys(images) as ImageId[]).filter((id) => !manifest.images[id]);
   console.log(`\n${Object.keys(manifest.images).length} generated images processed; ${missing.length} still placeholders${missing.length ? `: ${missing.join(", ")}` : ""}.`);
+  return missing;
 }
 
-main().catch((e) => {
-  console.error(e);
-  process.exit(1);
-});
+if (require.main === module) {
+  processImages().catch((e) => {
+    console.error(e);
+    process.exit(1);
+  });
+}

@@ -5,7 +5,7 @@
   "description": "Website for 1Oak Financial Group, Monrovia, CA",
   "scripts": {
     "dev": "next dev",
-    "prebuild": "tsx scripts/prelaunch-check.ts",
+    "prebuild": "tsx scripts/ensure-images.ts && tsx scripts/prelaunch-check.ts",
     "build": "next build",
     "postbuild": "node scripts/postbuild-check.mjs",
     "build:static": "tsx scripts/prelaunch-check.ts && node scripts/build-static.mjs && node scripts/postbuild-check.mjs",

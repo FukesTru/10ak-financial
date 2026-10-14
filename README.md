@@ -81,6 +81,14 @@ npm run images:fetch   # downloads the 24 originals into .image-src/ (git-ignore
 npm run images         # writes responsive WebP + JPEG to public/images and lib/image-manifest.json
 ```
 
+**On Vercel this happens automatically.** `prebuild` runs `scripts/ensure-images.ts`, which (when
+`VERCEL=1` or `FETCH_IMAGES=1`) downloads the originals, processes them and caches the result in
+`.next/cache`, so later deploys reuse it. If the CDN can't be reached the build still succeeds and
+the pages keep their placeholders; the build log says which images are missing. The processed files
+are not committed, so the site depends on these URLs staying available until they are: run the two
+commands above on any machine with normal internet access and commit `public/images/` and
+`lib/image-manifest.json` to make them permanent.
+
 Until an image is processed, `<Picture>` renders a navy-gradient placeholder with `data-todo="IMG-XX"`.
 Heroes load eagerly with high fetch priority; everything else lazy-loads. Card images reuse a 4:3 crop
 of the matching hero, and each hero also gets a 1200×630 Open Graph image.
