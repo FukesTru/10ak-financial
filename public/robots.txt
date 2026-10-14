@@ -1,0 +1,6 @@
+# Pre-launch: the whole site is closed to search engines until go-live.
+# At go-live, change "Disallow: /" to "Allow: /" and remove the noindex header in _headers.
+User-agent: *
+Disallow: /
+
+Sitemap: https://www.1oak-financial.com/sitemap.xml

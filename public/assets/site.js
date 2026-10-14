@@ -75,7 +75,10 @@
     e.preventDefault();
     setMenu(false);
     closeChat();
-    form.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "center" });
+    // Centre the form when it fits on screen; otherwise start it just below the sticky header.
+    var header = document.querySelector(".site-header");
+    var room = window.innerHeight - (header ? header.offsetHeight : 0);
+    form.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: form.offsetHeight + 32 < room ? "center" : "start" });
     if (history.replaceState) history.replaceState(null, "", "#contact-form");
     window.setTimeout(function () {
       var first = form.querySelector("input");
@@ -86,7 +89,7 @@
   if (location.hash === "#contact-form") {
     window.addEventListener("load", function () {
       var form = document.getElementById("contact-form");
-      if (form) form.scrollIntoView({ block: "center" });
+      if (form) form.scrollIntoView({ block: form.offsetHeight + 120 < window.innerHeight ? "center" : "start" });
     });
   }
 
