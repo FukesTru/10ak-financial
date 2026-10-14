@@ -1,1 +1,437 @@
-{ "images": {}, "clientPhotos": {} }
+{
+  "images": {
+    "IMG-01": {
+      "file": "home-hero",
+      "widths": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "width": 2560,
+      "height": 1440,
+      "cardWidths": [
+        480,
+        800,
+        1200,
+        1600
+      ],
+      "og": true,
+      "color": "#080818"
+    },
+    "IMG-02": {
+      "file": "why-oak-tree",
+      "widths": [
+        480,
+        800,
+        1200,
+        1600
+      ],
+      "width": 1600,
+      "height": 1200,
+      "og": true,
+      "color": "#181808"
+    },
+    "IMG-03": {
+      "file": "who-business-owners",
+      "widths": [
+        480,
+        800,
+        1200,
+        1600
+      ],
+      "width": 1600,
+      "height": 1200,
+      "og": true,
+      "color": "#080808"
+    },
+    "IMG-04": {
+      "file": "who-pre-retirees",
+      "widths": [
+        480,
+        800,
+        1200,
+        1600
+      ],
+      "width": 1600,
+      "height": 1200,
+      "og": true,
+      "color": "#180808"
+    },
+    "IMG-05": {
+      "file": "who-families",
+      "widths": [
+        480,
+        800,
+        1200,
+        1600
+      ],
+      "width": 1600,
+      "height": 1200,
+      "og": true,
+      "color": "#080808"
+    },
+    "IMG-06": {
+      "file": "services-hero",
+      "widths": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "width": 2560,
+      "height": 1440,
+      "cardWidths": [
+        480,
+        800,
+        1200,
+        1600
+      ],
+      "og": true,
+      "color": "#080808"
+    },
+    "IMG-07": {
+      "file": "about-hero",
+      "widths": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "width": 2560,
+      "height": 1440,
+      "cardWidths": [
+        480,
+        800,
+        1200,
+        1600
+      ],
+      "og": true,
+      "color": "#080808"
+    },
+    "IMG-08": {
+      "file": "service-areas-hero",
+      "widths": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "width": 2560,
+      "height": 1440,
+      "cardWidths": [
+        480,
+        800,
+        1200,
+        1600
+      ],
+      "og": true,
+      "color": "#080808"
+    },
+    "IMG-09": {
+      "file": "contact-hero",
+      "widths": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "width": 2560,
+      "height": 1440,
+      "cardWidths": [
+        480,
+        800,
+        1200,
+        1600
+      ],
+      "og": true,
+      "color": "#080808"
+    },
+    "IMG-10": {
+      "file": "cta-background",
+      "widths": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "width": 2560,
+      "height": 1440,
+      "cardWidths": [
+        480,
+        800,
+        1200,
+        1600
+      ],
+      "og": true,
+      "color": "#080828"
+    },
+    "IMG-11": {
+      "file": "tax-planning",
+      "widths": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "width": 2560,
+      "height": 1440,
+      "cardWidths": [
+        480,
+        800,
+        1200,
+        1600
+      ],
+      "og": true,
+      "color": "#181818"
+    },
+    "IMG-12": {
+      "file": "tax-return-filing",
+      "widths": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "width": 2560,
+      "height": 1440,
+      "cardWidths": [
+        480,
+        800,
+        1200,
+        1600
+      ],
+      "og": true,
+      "color": "#080808"
+    },
+    "IMG-13": {
+      "file": "annuities",
+      "widths": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "width": 2560,
+      "height": 1440,
+      "cardWidths": [
+        480,
+        800,
+        1200,
+        1600
+      ],
+      "og": true,
+      "color": "#584838"
+    },
+    "IMG-14": {
+      "file": "life-insurance",
+      "widths": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "width": 2560,
+      "height": 1440,
+      "cardWidths": [
+        480,
+        800,
+        1200,
+        1600
+      ],
+      "og": true,
+      "color": "#080818"
+    },
+    "IMG-15": {
+      "file": "mortgage-loans",
+      "widths": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "width": 2560,
+      "height": 1440,
+      "cardWidths": [
+        480,
+        800,
+        1200,
+        1600
+      ],
+      "og": true,
+      "color": "#080808"
+    },
+    "IMG-16": {
+      "file": "tax-free-investment",
+      "widths": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "width": 2560,
+      "height": 1440,
+      "cardWidths": [
+        480,
+        800,
+        1200,
+        1600
+      ],
+      "og": true,
+      "color": "#080808"
+    },
+    "IMG-17": {
+      "file": "accounting-bookkeeping",
+      "widths": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "width": 2560,
+      "height": 1440,
+      "cardWidths": [
+        480,
+        800,
+        1200,
+        1600
+      ],
+      "og": true,
+      "color": "#080818"
+    },
+    "IMG-18": {
+      "file": "cfo-advisory",
+      "widths": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "width": 2560,
+      "height": 1440,
+      "cardWidths": [
+        480,
+        800,
+        1200,
+        1600
+      ],
+      "og": true,
+      "color": "#080808"
+    },
+    "IMG-19": {
+      "file": "cost-segregation-study",
+      "widths": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "width": 2560,
+      "height": 1440,
+      "cardWidths": [
+        480,
+        800,
+        1200,
+        1600
+      ],
+      "og": true,
+      "color": "#080808"
+    },
+    "IMG-20": {
+      "file": "pension-cash-balance-plans",
+      "widths": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "width": 2560,
+      "height": 1440,
+      "cardWidths": [
+        480,
+        800,
+        1200,
+        1600
+      ],
+      "og": true,
+      "color": "#f8f8f8"
+    },
+    "IMG-21": {
+      "file": "financial-ratio-analysis",
+      "widths": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "width": 2560,
+      "height": 1440,
+      "cardWidths": [
+        480,
+        800,
+        1200,
+        1600
+      ],
+      "og": true,
+      "color": "#080828"
+    },
+    "IMG-22": {
+      "file": "strategic-risk-management",
+      "widths": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "width": 2560,
+      "height": 1440,
+      "cardWidths": [
+        480,
+        800,
+        1200,
+        1600
+      ],
+      "og": true,
+      "color": "#080808"
+    },
+    "IMG-23": {
+      "file": "accelerated-mortgage-payoff",
+      "widths": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "width": 2560,
+      "height": 1440,
+      "cardWidths": [
+        480,
+        800,
+        1200,
+        1600
+      ],
+      "og": true,
+      "color": "#080808"
+    },
+    "IMG-24": {
+      "file": "college-planning",
+      "widths": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "width": 2560,
+      "height": 1440,
+      "cardWidths": [
+        480,
+        800,
+        1200,
+        1600
+      ],
+      "og": true,
+      "color": "#181818"
+    }
+  },
+  "clientPhotos": {}
+}
