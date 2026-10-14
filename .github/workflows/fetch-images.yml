@@ -1,0 +1,50 @@
+# Downloads the Higgsfield images listed in scripts/higgsfield-jobs.json, processes them into
+# responsive WebP + JPEG files and commits them, so the site no longer depends on the CDN at build time.
+# Runs when this file or the job list changes, or manually from the Actions tab.
+name: Fetch Higgsfield images
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/fetch-images.yml"
+      - "scripts/higgsfield-jobs.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-images-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Download originals from Higgsfield
+        run: npm run images:fetch
+
+      - name: Process into WebP + JPEG
+        run: npm run images
+
+      - name: Commit processed images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/images lib/image-manifest.json
+          if git diff --cached --quiet; then
+            echo "Images already up to date."
+            exit 0
+          fi
+          git commit -m "Add processed Higgsfield images"
+          git push
