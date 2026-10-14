@@ -17,7 +17,6 @@ Nothing on the site was made up: where we did not have a fact, we wrote the page
 - [ ] **How you are paid on insurance and annuities.** The Fees page tells visitors to ask how the firm is paid on insurance or annuity products. Tell us if you want to state this on the page (for example commissions, fees, or both).
 - [ ] **Reviews.** No reviews were supplied, so the site has no reviews or testimonials section. Send any reviews you have permission to use, word for word, with the name exactly as the reviewer gave it.
 - [ ] **Google Business Profile and social media.** The form lists the Google Business Profile as "N/A" (claimed but not verified) and no Facebook, Instagram or other profiles, so the footer has no social links. Send the profile links once they are live.
-- [ ] **Contact form and chat.** No CRM form or chat code was supplied. The site uses its own form, which opens the visitor's email app with the message addressed to info@1oakfg.com, and a simple chat pop-up that offers the phone number and the form and sends nothing. Send the CRM form embed code (and chat code, if any) so enquiries go straight to your CRM.
 - [ ] **Text messages.** Your cell number is the same as the business number, but the form does not say that number accepts texts, so the site has no "Text us" link. Tell us if visitors may text (818) 245-2329.
 - [ ] **Extra services.** The form asked us to copy services from and mimic www.herbert-financial.com, the firm you currently work for. We did not copy or imitate another firm's website, wording or design. If you offer services beyond the 14 on the site, send them in your own words and we will add a page for each.
 - [ ] **Fonts.** None were given, so the site uses Source Serif 4 for headings and Inter for text. Tell us if you have brand fonts.
@@ -717,4 +716,4 @@ Every photo on the site was generated with Higgsfield AI for this website. None 
 
 ---
 
-567 items in total.
+566 items in total.
