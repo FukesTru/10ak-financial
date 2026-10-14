@@ -119,6 +119,10 @@ says the firm does not sell or share personal information.
 
 **Recommended: Vercel (or any Next.js host).** Pages are served as static files from the CDN and
 `/api/lead` runs as a serverless function. Set the environment variables from `.env.example`.
+`vercel.json` pins the framework to Next.js, so the project builds correctly even if it was imported
+before any code existed (when Vercel falls back to the "Other" preset and serves only `public/`, every
+page returns Vercel's `404: NOT_FOUND`). In Vercel → Settings → Git, make sure the **Production Branch**
+is the branch that holds this code.
 `next.config.ts` 301-redirects `1oak-financial.com` to `www.1oak-financial.com` (also set this at the
 DNS/host level) and adds security headers.
 
