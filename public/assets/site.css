@@ -316,25 +316,13 @@ a.card .card-foot svg { width: 18px; height: 18px; stroke: currentColor; }
 .band-ivory .contact-list .k, .contact-page .contact-list .k { color: var(--muted); }
 .contact-list .v { font-weight: 600; }
 .contact-list a { color: inherit; }
-.form-wrap { background: var(--white); color: var(--ink); border-radius: var(--radius); box-shadow: var(--shadow); padding: 36px; border: var(--border); scroll-margin-top: calc(var(--header-h) + 16px); }
-@media (max-width: 760px) { .form-wrap { padding: 24px; } }
-.form-wrap h3 { font-size: 26px; color: var(--navy); }
-.form-wrap .form-intro { margin-top: 8px; color: var(--muted); font-size: 16px; }
-.form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 24px; }
-.form-grid .full { grid-column: 1 / -1; }
-@media (max-width: 560px) { .form-grid { grid-template-columns: 1fr; } }
-.field label { display: block; font-weight: 600; font-size: 15px; color: var(--navy); margin-bottom: 6px; }
-.field input, .field textarea { width: 100%; min-height: 52px; padding: 12px 14px; border: 1px solid #B9B2A4; border-radius: 10px; font: 400 17px/1.4 var(--sans); color: var(--ink); background: var(--white); }
-.field textarea { min-height: 120px; resize: vertical; }
-.field input:focus, .field textarea:focus { outline: 3px solid rgba(123, 30, 47, 0.3); border-color: var(--burgundy); }
-.field [aria-invalid="true"] { border-color: #B42318; }
-.field .err { display: block; margin-top: 6px; color: #B42318; font-size: 14px; font-weight: 600; }
-.consent { display: grid; grid-template-columns: 24px 1fr; gap: 12px; align-items: start; font-size: 15px; color: var(--muted); }
-.consent input { width: 20px; height: 20px; margin-top: 3px; accent-color: var(--burgundy); }
-.form-wrap p.form-note { font-size: 14px; color: var(--muted); margin-top: 16px; }
-.form-wrap .btn { width: 100%; margin-top: 22px; }
-.form-wrap p.form-status { margin-top: 16px; padding: 14px 16px; border-radius: 10px; background: var(--ivory); color: var(--navy); font-size: 16px; }
-.form-status[hidden] { display: none; }
+.form-col .form-title { font-size: 26px; margin-bottom: 16px; }
+.band-navy .form-col .form-title { color: var(--white); }
+/* The CRM form, used exactly as given. Full width of its column and at least 600px tall. */
+.form-embed { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); border: var(--border); padding: 8px; }
+.form-embed iframe { display: block; width: 100%; min-height: 600px; }
+.form-col p.form-note { font-size: 14px; color: var(--muted); margin-top: 16px; }
+.band-navy .form-col p.form-note { color: var(--on-dark-muted); }
 
 /* Closing call band (phone and form, offered again) */
 .final-call { background: var(--navy-deep); color: var(--white); padding: 56px 0; }
@@ -369,33 +357,23 @@ a.card .card-foot svg { width: 18px; height: 18px; stroke: currentColor; }
 .footer-bottom p { color: #AEB8CB; margin: 0 0 8px; }
 @media (max-width: 1099px) { .site-footer { padding-bottom: calc(110px + env(safe-area-inset-bottom)); } }
 
-/* Mobile action bar. Three equal round buttons over a soft blur with no hard top edge. */
+/* Mobile action bar. Call (left) and Contact us (middle) over a soft blur with no hard top edge.
+   The bottom right corner is left empty for the CRM chat widget button, so the three read as one row.
+   If the widget button is a different size or sits at a different height, change these three values. */
+:root { --round-bottom: 18px; --round-side: 22px; }
 .action-bar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 120; pointer-events: none; height: calc(104px + env(safe-area-inset-bottom)); }
 .action-bar::before { content: ""; position: absolute; inset: 0; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); background: linear-gradient(to top, rgba(255, 255, 255, 0.72), rgba(255, 255, 255, 0)); -webkit-mask-image: linear-gradient(to top, #000 45%, transparent 100%); mask-image: linear-gradient(to top, #000 45%, transparent 100%); }
-.action-bar .round-row { position: absolute; left: 0; right: 0; bottom: calc(18px + env(safe-area-inset-bottom)); display: grid; grid-template-columns: repeat(3, var(--round-btn)); justify-content: space-between; padding: 0 22px; }
+.action-bar .round-row { position: absolute; left: 0; right: 0; bottom: calc(var(--round-bottom) + env(safe-area-inset-bottom)); display: grid; grid-template-columns: repeat(3, var(--round-btn)); justify-content: space-between; padding: 0 var(--round-side); }
 .round-btn { pointer-events: auto; width: var(--round-btn); height: var(--round-btn); border-radius: 50%; border: 0; display: inline-flex; align-items: center; justify-content: center; color: var(--white); background: var(--burgundy); box-shadow: 0 10px 24px -8px rgba(11, 23, 51, 0.55); cursor: pointer; text-decoration: none; }
 .round-btn svg { width: 24px; height: 24px; stroke: currentColor; }
 .round-btn.contact { background: var(--navy); }
-.round-btn.chat { background: var(--navy-deep); }
 .round-btn:hover { color: var(--white); filter: brightness(1.08); }
-@media (min-width: 1100px) {
-  .action-bar { height: auto; top: auto; left: auto; right: 28px; bottom: 28px; }
-  .action-bar::before { display: none; }
-  .action-bar .round-row { position: static; display: block; padding: 0; }
-  .action-bar .round-btn.call, .action-bar .round-btn.contact { display: none; }
-}
+@media (min-width: 1100px) { .action-bar { display: none; } }
 @media (max-width: 1099px) { main { padding-bottom: 8px; } }
 
-/* Chat pop-up (built in, sends nothing anywhere) */
-.chat-panel { position: fixed; z-index: 130; right: 18px; bottom: calc(92px + env(safe-area-inset-bottom)); width: min(340px, calc(100vw - 36px)); background: var(--white); border-radius: var(--radius); box-shadow: 0 24px 60px -20px rgba(11, 23, 51, 0.55); border: var(--border); padding: 22px; }
-.chat-panel[hidden] { display: none; }
-.chat-panel .chat-title { font: 600 20px/1.3 var(--serif); color: var(--navy); padding-right: 36px; }
-.chat-panel p { margin-top: 8px; font-size: 16px; color: var(--muted); }
-.chat-panel .chat-actions { display: grid; gap: 10px; margin-top: 16px; }
-.chat-panel .chat-actions .btn { width: 100%; min-height: 48px; }
-.chat-close { position: absolute; top: 12px; right: 12px; width: 40px; height: 40px; border: 0; background: none; border-radius: 8px; cursor: pointer; color: var(--muted); display: inline-flex; align-items: center; justify-content: center; }
-.chat-close svg { width: 20px; height: 20px; stroke: currentColor; }
-@media (min-width: 1100px) { .chat-panel { right: 28px; bottom: 100px; } }
+/* Footer review link */
+.footer-review { margin-top: 18px; }
+.footer-review a { color: var(--gold); font-weight: 600; }
 
 /* Scroll movement. Content is visible without JavaScript; motion only when JS runs and the visitor allows motion. */
 @media (prefers-reduced-motion: no-preference) {

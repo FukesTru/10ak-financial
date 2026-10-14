@@ -250,9 +250,9 @@
   ],
   "must_keep": "Target clients: ages 35 to 75, income of $200K or more a year, $250K or more in investable assets, and business owners. (The request to copy services from and mimic www.herbert-financial.com, the firm the owner currently works for, was not followed: copying another firm’s site is not allowed. See VERIFY.md.)",
   "integrations": {
-    "form_embed": "",
-    "chat_widget": "",
-    "review_link": ""
+    "form_embed": "<iframe\n    src=\"https://api.leadconnectorhq.com/widget/form/EbbCP9nwVOQeAKyX5zIt\"\n    style=\"width:100%;height:100%;border:none;border-radius:10px\"\n    id=\"inline-EbbCP9nwVOQeAKyX5zIt\"\n    data-layout=\"{'id':'INLINE'}\"\n    data-trigger-type=\"alwaysShow\"\n    data-trigger-value=\"\"\n    data-activation-type=\"alwaysActivated\"\n    data-activation-value=\"\"\n    data-deactivation-type=\"neverDeactivate\"\n    data-deactivation-value=\"\"\n    data-form-name=\"Website Form (1Oak Financial Group)\"\n    data-height=\"540\"\n    data-layout-iframe-id=\"inline-EbbCP9nwVOQeAKyX5zIt\"\n    data-form-id=\"EbbCP9nwVOQeAKyX5zIt\"\n    data-cookie-consent=\"true\"\n    data-cookie-consent-provider=\"auto\"\n    title=\"Website Form (1Oak Financial Group)\"\n    \n        >\n</iframe>\n<script src=\"https://link.msgsndr.com/js/form_embed.js\"></script>",
+    "chat_widget": "<script src=\"https://widgets.leadconnectorhq.com/loader.js\" data-resources-url=\"https://widgets.leadconnectorhq.com/chat-widget/loader.js\" data-widget-id=\"6acf838fe0d80451b791b427\"></script>",
+    "review_link": "https://review.strain-systems.com/1oak-financial-group"
   },
   "crm_location_id": "",
   "vercel_project": "",

@@ -36,7 +36,7 @@ Nothing on the site was made up: where we did not have a fact, we wrote the page
 - [ ] **"Fees explained before any work starts."** This appears across the site as a promise about how you work. Please confirm it is true for every service.
 - [ ] **Who you work with.** The site says the firm focuses on business owners and established households, usually between about 35 and 75 (from your notes). It does not print the income or asset levels. Please confirm.
 - [ ] **Footer disclaimer** on every page: "This website is general information and is not tax, legal, accounting, insurance or investment advice. Contacting us does not create a client relationship, and no particular result is promised. Theo Minassian is responsible for the content of this website." Please have this checked by your compliance contact.
-- [ ] **Form consent line:** "You may contact me by phone, text message or email about this enquiry. Message and data rates may apply. Reply STOP to stop texts." Please confirm you are happy to contact enquiries this way.
+- [ ] **Contact form and chat.** The contact form on every page and the chat button are connected to the firm's customer relationship software (LeadConnector). Please send a test message through each and confirm you receive it, and check that the form's consent wording about calls, texts and emails is how you want it.
 - [ ] **Brand colours.** You asked for midnight blue and burgundy without codes. We chose midnight blue #13254A and burgundy #7B1E2F, with ivory #F7F3EC, muted gold #C9A96E and deep navy #0B1733. Please approve.
 - [ ] **Search engines.** The site is currently hidden from search engines on purpose (robots.txt and a noindex header). We switch this on at launch after you approve everything here.
 
@@ -80,7 +80,8 @@ Nothing on the site was made up: where we did not have a fact, we wrote the page
 
 ### Privacy policy and terms of use (/privacy/, /terms/)
 
-- [ ] Both pages were written in general terms for a California firm and dated October 14, 2026. Please have your attorney or compliance contact review both before launch, and tell us if you use any analytics, advertising or CRM tools that collect data, so they can be named.
+- [ ] Both pages were written in general terms for a California firm and dated October 14, 2026. Please have your attorney or compliance contact review both before launch, and tell us if you use any analytics or advertising tools that collect data, so they can be named.
+- [ ] The privacy policy says the contact form and chat are provided by LeadConnector, which stores what visitors send so you can reply and may use cookies it needs to work, and that the site uses no advertising trackers.
 - [ ] The privacy policy says you do not sell or share personal information for advertising, keep enquiry details only as long as needed or required by law, and honour California requests to see, correct or delete information.
 - [ ] The privacy policy says clients receive an engagement agreement and a separate client privacy notice when work begins.
 - [ ] The terms say a client relationship begins only when both sides sign an engagement agreement.
@@ -716,4 +717,4 @@ Every photo on the site was generated with Higgsfield AI for this website. None 
 
 ---
 
-566 items in total.
+567 items in total.

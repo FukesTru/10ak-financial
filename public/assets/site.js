@@ -1,5 +1,5 @@
 // 1Oak Financial Group site script. Plain JavaScript, no libraries.
-// Everything on the page works without it; this adds menus, the chat pop-up, form checks and motion.
+// Everything on the page works without it; this adds the menus, the Contact us scrolling and motion.
 (function () {
   "use strict";
   var doc = document.documentElement;
@@ -68,80 +68,42 @@
     });
   });
 
-  // Every "Contact us" link lands with the whole form in the middle of the screen.
+  // Every "Contact us" link lands with the whole form in view, centred in the space between the
+  // sticky header and, on a phone, the round buttons at the bottom of the screen.
+  function formTop(form) {
+    var col = form.closest(".reveal");
+    if (col && !col.classList.contains("in")) {
+      // Show the form in its final place first, so the measurement is not thrown off by the motion.
+      col.style.transition = "none";
+      col.classList.add("in");
+      void col.offsetHeight;
+      col.style.transition = "";
+    }
+    var header = document.querySelector(".site-header");
+    var bar = document.querySelector(".action-bar .round-row");
+    var top = header ? header.getBoundingClientRect().bottom : 0;
+    var bottom = window.innerHeight;
+    if (bar && bar.offsetParent !== null) bottom = Math.min(bottom, bar.getBoundingClientRect().top - 12);
+    var r = form.getBoundingClientRect();
+    var room = bottom - top;
+    return window.scrollY + r.top - (r.height <= room ? top + (room - r.height) / 2 : top + 12);
+  }
   function goToForm(e) {
     var form = document.getElementById("contact-form");
     if (!form) return;
     e.preventDefault();
     setMenu(false);
-    closeChat();
-    // Centre the form when it fits on screen; otherwise start it just below the sticky header.
-    var header = document.querySelector(".site-header");
-    var room = window.innerHeight - (header ? header.offsetHeight : 0);
-    form.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: form.offsetHeight + 32 < room ? "center" : "start" });
+    window.scrollTo({ top: formTop(form), behavior: reduceMotion ? "auto" : "smooth" });
     if (history.replaceState) history.replaceState(null, "", "#contact-form");
-    window.setTimeout(function () {
-      var first = form.querySelector("input");
-      if (first) first.focus({ preventScroll: true });
-    }, reduceMotion ? 0 : 600);
+    // Move keyboard focus into the form without scrolling again.
+    var frame = form.querySelector("iframe");
+    if (frame) window.setTimeout(function () { frame.focus({ preventScroll: true }); }, reduceMotion ? 0 : 700);
   }
   document.querySelectorAll('a[href="#contact-form"]').forEach(function (a) { a.addEventListener("click", goToForm); });
   if (location.hash === "#contact-form") {
     window.addEventListener("load", function () {
       var form = document.getElementById("contact-form");
-      if (form) form.scrollIntoView({ block: form.offsetHeight + 120 < window.innerHeight ? "center" : "start" });
-    });
-  }
-
-  // Built-in chat pop-up. It only offers the phone and the form; it sends nothing anywhere.
-  var chatBtn = document.querySelector(".round-btn.chat");
-  var chat = document.getElementById("chat-panel");
-  function closeChat() {
-    if (!chat || chat.hidden) return;
-    chat.hidden = true;
-    chatBtn.setAttribute("aria-expanded", "false");
-  }
-  if (chatBtn && chat) {
-    chatBtn.addEventListener("click", function () {
-      var open = chat.hidden;
-      chat.hidden = !open;
-      chatBtn.setAttribute("aria-expanded", open ? "true" : "false");
-      if (open) chat.querySelector(".btn").focus();
-    });
-    chat.querySelector(".chat-close").addEventListener("click", function () { closeChat(); chatBtn.focus(); });
-    document.addEventListener("keydown", function (e) {
-      if (e.key === "Escape" && !chat.hidden) { closeChat(); chatBtn.focus(); }
-    });
-  }
-
-  // Contact form. Checks the fields, then opens the visitor's email app with the message
-  // addressed to the firm (the CRM form replaces this once it is connected).
-  var form = document.querySelector("#contact-form form");
-  if (form) {
-    form.addEventListener("submit", function (e) {
-      e.preventDefault();
-      var fields = { name: form.elements.name, phone: form.elements.phone, email: form.elements.email };
-      var bad = null;
-      function check(el, ok, msg) {
-        var err = document.getElementById(el.id + "-err");
-        el.setAttribute("aria-invalid", ok ? "false" : "true");
-        err.textContent = ok ? "" : msg;
-        if (!ok && !bad) bad = el;
-      }
-      check(fields.name, fields.name.value.trim().length > 1, "Please enter your name.");
-      check(fields.phone, fields.phone.value.replace(/\D/g, "").length >= 10, "Please enter a phone number we can call.");
-      check(fields.email, /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(fields.email.value.trim()), "Please enter a valid email address.");
-      var consent = form.elements.consent;
-      var cerr = document.getElementById("consent-err");
-      if (!consent.checked) { cerr.textContent = "Please tick the box so we can reply to you."; if (!bad) bad = consent; } else { cerr.textContent = ""; }
-      if (bad) { bad.focus(); return; }
-      var to = form.getAttribute("data-to");
-      var body = "Name: " + fields.name.value.trim() + "\nPhone: " + fields.phone.value.trim() + "\nEmail: " + fields.email.value.trim() +
-        "\n\n" + form.elements.message.value.trim() + "\n\nSent from the website page " + location.pathname;
-      window.location.href = "mailto:" + to + "?subject=" + encodeURIComponent("Website enquiry from " + fields.name.value.trim()) + "&body=" + encodeURIComponent(body);
-      var status = form.querySelector(".form-status");
-      status.hidden = false;
-      status.focus();
+      if (form) window.scrollTo({ top: formTop(form) });
     });
   }
 
