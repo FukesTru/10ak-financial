@@ -56,9 +56,9 @@ Copy is written and waiting in each page. Flip `confirmed: true` in `/config/ext
 - [ ] Business growth strategy → /services/cfo-advisory
 - [ ] Succession planning → /services/cfo-advisory
 
-## 4. Images (0 of 24 processed)
+## 4. Images (24 of 24 processed)
 
-All 24 images were generated in Higgsfield (job IDs and URLs in `scripts/higgsfield-jobs.json`). Not yet processed, so rendering as navy placeholders with `data-todo`: IMG-01 (home-hero), IMG-02 (why-oak-tree), IMG-03 (who-business-owners), IMG-04 (who-pre-retirees), IMG-05 (who-families), IMG-06 (services-hero), IMG-07 (about-hero), IMG-08 (service-areas-hero), IMG-09 (contact-hero), IMG-10 (cta-background), IMG-11 (tax-planning), IMG-12 (tax-return-filing), IMG-13 (annuities), IMG-14 (life-insurance), IMG-15 (mortgage-loans), IMG-16 (tax-free-investment), IMG-17 (accounting-bookkeeping), IMG-18 (cfo-advisory), IMG-19 (cost-segregation-study), IMG-20 (pension-cash-balance-plans), IMG-21 (financial-ratio-analysis), IMG-22 (strategic-risk-management), IMG-23 (accelerated-mortgage-payoff), IMG-24 (college-planning). Run `npm run images:fetch && npm run images` from a machine that can reach the Higgsfield CDN (see README).
+All Higgsfield images are processed.
 
 - [ ] Client photo `public/client-photos/theo-minassian-headshot.jpg` — placeholder renders until uploaded (then run `npm run images`).
 - [ ] Upload the remaining client photos (15–29 supplied) to `public/client-photos/` — see the README there.
