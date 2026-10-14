@@ -1,0 +1,347 @@
+{
+  "note": "AI-generated with Higgsfield (GPT Image 2.5). Converted to WebP by .github/workflows/images.yml using tools/images.mjs. Replace any image by changing its url and pushing.",
+  "images": [
+    {
+      "key": "home-hero",
+      "file": "hero-office-foothills.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261013_174448_8a21671a-9274-4d10-8bde-23a0a4415dfc.png",
+      "width": 2400,
+      "height": 1029,
+      "alt": "An office window looking out at the San Gabriel Mountain foothills at dusk, with a desk lamp and a leather chair",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "home-why",
+      "file": "oak-tree-hillside.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261013_174448_f3c83362-7021-4ac0-95ad-878535b9e1c5.png",
+      "width": 1600,
+      "height": 1200,
+      "alt": "A single old oak tree on a golden California hillside at sunset",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "about",
+      "file": "office-interior.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261013_174450_07c2dc66-45c8-4bde-8c70-41318fff0d63.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "A quiet advisory office with navy walls, a walnut table and soft window light",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "contact",
+      "file": "foothill-boulevard.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261014_103713_d1392535-a720-4945-8435-1ca46e966911.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "A wide boulevard with palm trees and low office buildings at the base of the San Gabriel Mountains",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "service:tax-planning",
+      "file": "tax-planning.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261013_174449_8de9b03f-9d99-4af5-89f0-ecd22ae0a95d.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "A closed leather notebook and pen on a meeting table in evening light",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "service:tax-return-filing",
+      "file": "tax-return-filing.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261013_175045_5ccfc7ef-8b07-49fb-a1c7-01a4c34d8ec8.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "An organized desk with a laptop, a calculator and folders in morning light",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "service:accounting-bookkeeping",
+      "file": "accounting-bookkeeping.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261014_103712_31390a87-2674-4412-b415-c115c85f443e.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "A tidy small business desk with a laptop, a tray of sorted receipts and a ledger notebook",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "service:cfo-advisory",
+      "file": "cfo-advisory.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261014_103713_423a84f8-bdba-4c35-9950-c8f6ccd029f1.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "An empty boardroom with a long walnut table and a city skyline at dusk",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "service:cost-segregation-study",
+      "file": "cost-segregation-study.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261013_180331_f7ad3b83-c4f6-457f-b521-65cf55d67878.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "A modern commercial office building with glass and stone at sunrise",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "service:pension-cash-balance-plans",
+      "file": "pension-cash-balance-plans.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261014_103712_643f9853-9bad-4eb2-91ca-bc1499b48ac0.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "Two coffee cups and a leather portfolio on a conference table in late afternoon light",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "service:financial-ratio-analysis",
+      "file": "financial-ratio-analysis.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261014_103711_02e5d2d9-f6ce-41e6-8856-5a8f7215c980.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "Reading glasses and a silver pen resting on a printed report on a walnut desk",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "service:strategic-risk-management",
+      "file": "strategic-risk-management.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261013_180333_7f7fd524-3abb-4ec6-bb2e-52f63fd53c58.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "A lighthouse on a rocky California coastal bluff at dusk",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "service:annuities",
+      "file": "annuities.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261014_103712_4250d81c-df66-4df5-a11e-41c3383509bd.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "A sandy path through dune grass leading to two beach chairs facing the Pacific at golden hour",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "service:life-insurance",
+      "file": "life-insurance.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261014_104912_d1788e8d-7277-4438-a10f-c54850f946be.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "The back garden of a family home at dusk, with a shade tree, an empty swing and a table set for dinner",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "service:tax-free-investment",
+      "file": "tax-free-investment.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261013_175045_0c6a7026-28b5-45b4-a63d-9cb0ecdb3fae.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "A young oak seedling growing from dark soil in soft sunlight",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "service:mortgage-loans",
+      "file": "mortgage-loans.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261013_175044_0d8f3a52-374e-4722-8a83-c9150979ae48.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "The front entry of a modern Southern California home at golden hour",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "service:accelerated-mortgage-payoff",
+      "file": "accelerated-mortgage-payoff.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261014_103711_31575fca-75d4-4518-bd37-e706313b408c.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "House keys on a wooden entry table beside a vase of flowers and a sunlit front door",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "service:college-planning",
+      "file": "college-planning.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261014_103713_e6470a99-da11-43f4-9133-54bdce1d3f51.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "An empty university walkway in autumn lined with trees and brick buildings",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "town:monrovia",
+      "file": "town-monrovia.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261014_104048_6e6bfb88-e55a-4ca4-ba85-d74d966579d5.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "A tree-lined old town main street with brick storefronts below the San Gabriel Mountains",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "town:pasadena",
+      "file": "town-pasadena.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261014_104050_524921fa-d997-4c14-88b3-89423ee4b290.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "A domed Spanish Revival city hall and courtyard fountain in Pasadena at golden hour",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "town:arcadia",
+      "file": "town-arcadia.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261014_104048_d289ef83-59f1-4de7-a50c-5f1c896070d7.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "A Victorian cottage beside a lagoon in a botanical garden in Arcadia, with a peacock on the lawn",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "town:la-canada-flintridge",
+      "file": "town-la-canada-flintridge.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261014_104049_c5810ad3-b470-4780-ae2b-bb52583cc0ff.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "A quiet residential street in La Cañada Flintridge at the foot of the San Gabriel Mountains",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "town:glendale",
+      "file": "town-glendale.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261014_104048_44c72024-75e6-4e22-9b47-6caac5de78a4.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "Glendale office towers at dusk with the Verdugo Mountains behind",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "town:burbank",
+      "file": "town-burbank.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261014_104048_0fb8f439-dd4f-42a3-96f6-9514ec6dfeb2.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "Spanish style bungalows and palm-lined streets in Burbank below the Verdugo hills",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "town:beverly-hills",
+      "file": "town-beverly-hills.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261014_104049_fc8d0e7d-95e9-4766-8c3f-6383e7f35095.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "A residential boulevard in Beverly Hills lined with tall palm trees",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "town:west-hollywood",
+      "file": "town-west-hollywood.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261014_104049_477f4ebb-94ae-4fb9-ad01-3d991c3e2142.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "City lights spreading across the basin below West Hollywood at blue hour",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "town:encino",
+      "file": "town-encino.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261014_104533_aab5b5f1-b677-49f2-860a-e8a5f6ec703d.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "A shaded residential street with ranch homes and old oak trees in Encino",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "town:sherman-oaks",
+      "file": "town-sherman-oaks.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261014_104532_85b1359c-cf54-4898-bc38-edf4ff9d5230.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "Hillside homes above the San Fernando Valley in Sherman Oaks at sunset",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "town:los-angeles",
+      "file": "town-los-angeles.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261013_175031_6bb8ce1b-0fc8-4f36-be71-d2d0e1dc2b29.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "The Los Angeles skyline and city lights at dusk with the San Gabriel foothills in the distance",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "town:woodland-hills",
+      "file": "town-woodland-hills.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261014_104533_34dd99a3-55fd-44d4-89d6-07c5befcaa13.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "Golden hills dotted with oak trees above the west San Fernando Valley near Woodland Hills",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "town:thousand-oaks",
+      "file": "town-thousand-oaks.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261014_104533_a0ca1035-9580-4ed4-a04f-6ff3890899a1.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "Green rolling hills and valley oaks in the Conejo Valley near Thousand Oaks",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "town:malibu",
+      "file": "town-malibu.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261014_104535_d5aa5017-5379-4fd0-912e-d1b4e45bdc15.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "The Malibu coastline with bluffs above Pacific Coast Highway at golden hour",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "town:orange-county",
+      "file": "town-orange-county.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261014_104533_4753094c-32d1-4601-96e5-ed8da9947458.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "A long wooden pier reaching into the Pacific on the Orange County coast at sunset",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "town:costa-mesa",
+      "file": "town-costa-mesa.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261014_104534_5fe1e631-9f29-4893-8905-b061207234fb.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "Curved glass architecture at a performing arts plaza in Costa Mesa at blue hour",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "town:irvine",
+      "file": "town-irvine.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261014_104532_b5cd4dba-ca85-4187-b386-63b5ecfb260c.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "A palm-lined boulevard with modern office buildings in Irvine and the Santa Ana Mountains beyond",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "town:newport-beach",
+      "file": "town-newport-beach.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261014_104912_956f0538-5e3e-4cea-a1a1-25651ca54060.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "Sailboats and yachts moored in Newport Beach harbor at golden hour",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "town:san-diego",
+      "file": "town-san-diego.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261014_104912_69c9b290-b430-46a3-ab5d-b12eceac18a0.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "The San Diego skyline across the bay at dusk",
+      "source": "Higgsfield AI"
+    },
+    {
+      "key": "town:san-francisco",
+      "file": "town-san-francisco.webp",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JQKh2gid98NN8aKLj5Y7jhUCzf/hf_20261014_104912_b7a08e86-2d3e-488b-9c5e-1b1522a0b748.png",
+      "width": 1600,
+      "height": 900,
+      "alt": "The Golden Gate Bridge at sunrise with fog over the bay",
+      "source": "Higgsfield AI"
+    }
+  ]
+}

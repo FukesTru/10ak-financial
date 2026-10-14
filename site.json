@@ -1,0 +1,261 @@
+{
+  "business": {
+    "name": "1Oak Financial Group",
+    "known_as": "1Oak",
+    "legal_name": "1Oak Financial Group",
+    "street": "635 W. Foothill Blvd",
+    "city": "Monrovia",
+    "state": "CA",
+    "postal_code": "91016",
+    "country": "US",
+    "phone": "(818) 245-2329",
+    "email": "info@1oakfg.com",
+    "website_current": "https://www.1oak-financial.com",
+    "timezone": "America/Los_Angeles"
+  },
+  "online": {
+    "facebook": "",
+    "instagram": "",
+    "google_business_profile": "",
+    "google_review_link": ""
+  },
+  "hours": "Call us any time to set up a consultation.",
+  "areas_served": [
+    "Monrovia",
+    "Pasadena",
+    "Arcadia",
+    "La Cañada Flintridge",
+    "Los Angeles",
+    "Glendale",
+    "Burbank",
+    "Beverly Hills",
+    "West Hollywood",
+    "Encino",
+    "Sherman Oaks",
+    "Woodland Hills",
+    "Malibu",
+    "Thousand Oaks",
+    "Orange County",
+    "Costa Mesa",
+    "Irvine",
+    "Newport Beach",
+    "San Diego",
+    "San Francisco"
+  ],
+  "services": [
+    "Tax Planning",
+    "Tax Return Filing",
+    "Accounting and Bookkeeping",
+    "CFO Advisory Services",
+    "Cost Segregation Study",
+    "Pension and Cash Balance Plans",
+    "Advanced Financial Ratio Analysis",
+    "Strategic Risk Management",
+    "Annuities and Rollovers",
+    "Life Insurance",
+    "Tax Free Investment",
+    "Mortgage Loans",
+    "Accelerated Mortgage Payoff",
+    "College Planning"
+  ],
+  "booking_system_current": "",
+  "brand": {
+    "colour_main": "#13254A",
+    "colour_accent": "#7B1E2F",
+    "colours_other": [
+      "#F7F3EC",
+      "#C9A96E",
+      "#0B1733"
+    ],
+    "font": "Source Serif 4 (headings) + Inter (body)",
+    "notes": "The client asked for Midnight Blue and Burgundy with no hex codes. Chosen values: midnight blue #13254A (main), burgundy #7B1E2F (accent), ivory #F7F3EC (light bands), muted gold #C9A96E (leaf mark and small details on dark), deep navy #0B1733 (dark bands). No font was given, so the template default pair is used. No logo was supplied (the CSV says one needs designing), so a simple oak leaf mark with a 1Oak / FINANCIAL GROUP wordmark was built: public/images/logo.svg, logo-white.svg, logo.png."
+  },
+  "images": [
+    {
+      "file": "images/logo.svg",
+      "note": "Wordmark and oak leaf mark designed for this build, midnight blue and gold. Not supplied by the client."
+    },
+    {
+      "file": "images/logo-white.svg",
+      "note": "The same logo in white for dark backgrounds."
+    },
+    {
+      "file": "images/logo.png",
+      "note": "PNG copy of the logo, 1024px wide, used in structured data."
+    },
+    {
+      "file": "favicon.png",
+      "note": "512x512 icon built from the leaf mark."
+    },
+    {
+      "file": "apple-touch-icon.png",
+      "note": "180x180 icon built from the leaf mark."
+    },
+    {
+      "file": "og-image.png",
+      "note": "1200x630 social share image in the brand colours."
+    },
+    {
+      "file": "images/hero-office-foothills.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: An office window looking out at the San Gabriel Mountain foothills at dusk, with a desk lamp and a leather chair. Client to approve or replace."
+    },
+    {
+      "file": "images/oak-tree-hillside.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: A single old oak tree on a golden California hillside at sunset. Client to approve or replace."
+    },
+    {
+      "file": "images/office-interior.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: A quiet advisory office with navy walls, a walnut table and soft window light. Client to approve or replace."
+    },
+    {
+      "file": "images/foothill-boulevard.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: A wide boulevard with palm trees and low office buildings at the base of the San Gabriel Mountains. Client to approve or replace."
+    },
+    {
+      "file": "images/tax-planning.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: A closed leather notebook and pen on a meeting table in evening light. Client to approve or replace."
+    },
+    {
+      "file": "images/tax-return-filing.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: An organized desk with a laptop, a calculator and folders in morning light. Client to approve or replace."
+    },
+    {
+      "file": "images/accounting-bookkeeping.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: A tidy small business desk with a laptop, a tray of sorted receipts and a ledger notebook. Client to approve or replace."
+    },
+    {
+      "file": "images/cfo-advisory.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: An empty boardroom with a long walnut table and a city skyline at dusk. Client to approve or replace."
+    },
+    {
+      "file": "images/cost-segregation-study.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: A modern commercial office building with glass and stone at sunrise. Client to approve or replace."
+    },
+    {
+      "file": "images/pension-cash-balance-plans.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: Two coffee cups and a leather portfolio on a conference table in late afternoon light. Client to approve or replace."
+    },
+    {
+      "file": "images/financial-ratio-analysis.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: Reading glasses and a silver pen resting on a printed report on a walnut desk. Client to approve or replace."
+    },
+    {
+      "file": "images/strategic-risk-management.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: A lighthouse on a rocky California coastal bluff at dusk. Client to approve or replace."
+    },
+    {
+      "file": "images/annuities.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: A sandy path through dune grass leading to two beach chairs facing the Pacific at golden hour. Client to approve or replace."
+    },
+    {
+      "file": "images/life-insurance.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: The back garden of a family home at dusk, with a shade tree, an empty swing and a table set for dinner. Client to approve or replace."
+    },
+    {
+      "file": "images/tax-free-investment.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: A young oak seedling growing from dark soil in soft sunlight. Client to approve or replace."
+    },
+    {
+      "file": "images/mortgage-loans.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: The front entry of a modern Southern California home at golden hour. Client to approve or replace."
+    },
+    {
+      "file": "images/accelerated-mortgage-payoff.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: House keys on a wooden entry table beside a vase of flowers and a sunlit front door. Client to approve or replace."
+    },
+    {
+      "file": "images/college-planning.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: An empty university walkway in autumn lined with trees and brick buildings. Client to approve or replace."
+    },
+    {
+      "file": "images/town-monrovia.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: A tree-lined old town main street with brick storefronts below the San Gabriel Mountains. Client to approve or replace."
+    },
+    {
+      "file": "images/town-pasadena.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: A domed Spanish Revival city hall and courtyard fountain in Pasadena at golden hour. Client to approve or replace."
+    },
+    {
+      "file": "images/town-arcadia.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: A Victorian cottage beside a lagoon in a botanical garden in Arcadia, with a peacock on the lawn. Client to approve or replace."
+    },
+    {
+      "file": "images/town-la-canada-flintridge.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: A quiet residential street in La Cañada Flintridge at the foot of the San Gabriel Mountains. Client to approve or replace."
+    },
+    {
+      "file": "images/town-glendale.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: Glendale office towers at dusk with the Verdugo Mountains behind. Client to approve or replace."
+    },
+    {
+      "file": "images/town-burbank.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: Spanish style bungalows and palm-lined streets in Burbank below the Verdugo hills. Client to approve or replace."
+    },
+    {
+      "file": "images/town-beverly-hills.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: A residential boulevard in Beverly Hills lined with tall palm trees. Client to approve or replace."
+    },
+    {
+      "file": "images/town-west-hollywood.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: City lights spreading across the basin below West Hollywood at blue hour. Client to approve or replace."
+    },
+    {
+      "file": "images/town-encino.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: A shaded residential street with ranch homes and old oak trees in Encino. Client to approve or replace."
+    },
+    {
+      "file": "images/town-sherman-oaks.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: Hillside homes above the San Fernando Valley in Sherman Oaks at sunset. Client to approve or replace."
+    },
+    {
+      "file": "images/town-los-angeles.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: The Los Angeles skyline and city lights at dusk with the San Gabriel foothills in the distance. Client to approve or replace."
+    },
+    {
+      "file": "images/town-woodland-hills.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: Golden hills dotted with oak trees above the west San Fernando Valley near Woodland Hills. Client to approve or replace."
+    },
+    {
+      "file": "images/town-thousand-oaks.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: Green rolling hills and valley oaks in the Conejo Valley near Thousand Oaks. Client to approve or replace."
+    },
+    {
+      "file": "images/town-malibu.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: The Malibu coastline with bluffs above Pacific Coast Highway at golden hour. Client to approve or replace."
+    },
+    {
+      "file": "images/town-orange-county.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: A long wooden pier reaching into the Pacific on the Orange County coast at sunset. Client to approve or replace."
+    },
+    {
+      "file": "images/town-costa-mesa.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: Curved glass architecture at a performing arts plaza in Costa Mesa at blue hour. Client to approve or replace."
+    },
+    {
+      "file": "images/town-irvine.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: A palm-lined boulevard with modern office buildings in Irvine and the Santa Ana Mountains beyond. Client to approve or replace."
+    },
+    {
+      "file": "images/town-newport-beach.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: Sailboats and yachts moored in Newport Beach harbor at golden hour. Client to approve or replace."
+    },
+    {
+      "file": "images/town-san-diego.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: The San Diego skyline across the bay at dusk. Client to approve or replace."
+    },
+    {
+      "file": "images/town-san-francisco.webp",
+      "note": "AI generated with Higgsfield, no people. Shows: The Golden Gate Bridge at sunrise with fog over the bay. Client to approve or replace."
+    }
+  ],
+  "must_keep": "Target clients: ages 35 to 75, income of $200K or more a year, $250K or more in investable assets, and business owners. (The request to copy services from and mimic www.herbert-financial.com, the firm the owner currently works for, was not followed: copying another firm’s site is not allowed. See VERIFY.md.)",
+  "integrations": {
+    "form_embed": "",
+    "chat_widget": "",
+    "review_link": ""
+  },
+  "crm_location_id": "",
+  "vercel_project": "",
+  "preview_url": "https://1oak-financial.pages.dev",
+  "domain": "www.1oak-financial.com"
+}
